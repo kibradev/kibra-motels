@@ -1,0 +1,474 @@
+.MotelMain {
+    background-color: #000;
+    width: 93vh;
+    height: 59vh;
+    border-radius: 0.4vh;
+    position: relative;
+    margin: auto;
+    display: none;
+    margin-top: 11vh;
+}
+
+.MotelDashboard {
+    background-color: transparent;
+    width: 22vh;
+    height: 48vh;
+    position: relative;
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    left: 1vh;
+    top: -10vh;
+}
+
+
+.MotelImage2 {
+    width: 100vh;
+    height: 54vh;
+    border-radius: 0.4vh;
+}
+
+.Motellerim {
+    background-color: #66001f;
+    width: 20vh;
+    height: 5vh;
+    font-size: 1.6vh;
+    font-weight: 600;
+    border-radius: .5vh;
+    border: 1px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 35vh;
+    cursor: pointer;
+    top: 2vh;
+    color: #fff;
+}
+
+.Motellerim:hover {
+    background-color: #5f1128;
+    transition: 0.5s;
+}
+
+.MotelTitle {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 5.6vh;
+    margin-left: 5vh;
+    position: relative;
+    left: 34vh;
+    top: 2vh;
+}
+
+.OdaPrice {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 0.5vh;
+    font-weight: 400;
+    font-size: 3vh;
+    TEXT-ALIGN: center;
+}
+
+.NewOda {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    border-radius: .5vh;
+    margin-top: -3vh;
+    cursor: pointer;
+    height: 12vh;
+    position: relative;
+    left: .5vh;
+    top: 1.5vh;
+}
+
+.LeftMotelButton {
+    background: #ea4b5a;
+    border: 1px;
+    width: 21vh;
+    height: 3.4vh;
+    font-size: 1.3vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-top: 6px;
+    cursor: pointer;
+    left: 1.5vh;
+    top: -6.2vh;
+    font-family: 'Inter', sans-serif;
+    border-radius: 3.3vh;
+    color: #fff;
+}
+
+.NewOda:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    border-radius: .5vh;
+    color: #000;
+}
+
+.NewOda p:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    color: #000;
+    border-radius: .5vh;
+}
+
+.NewOda p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 2.5vh;
+    font-weight: 400;
+    font-size: 4vh;
+    TEXT-ALIGN: center;
+}
+
+.anamanam {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding-top: -3.9vh;
+    font-weight: 400;
+    font-size: 4vh;
+    TEXT-ALIGN: center;
+}
+
+.anamanam2 {
+    color: #ff5050;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 2.5vh;
+    font-weight: 600;
+    font-size: 1.5vh;
+    position: relative;
+    top: -6vh;
+    TEXT-ALIGN: center;
+}
+
+.MotelSelectName {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.7vh;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    left: 2.3vh;
+    top: -1vh;
+}
+
+.MotelSozlesmeTittle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.7vh;
+    color: #fff;
+    padding-left: 5vh;
+    position: relative;
+    top: -3vh;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Kalin {
+    font-weight: 600;
+}
+
+.MotelSelectRoom {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 36vh;
+    height: 26vh;
+    border-radius: .5vh;
+    position: relative;
+    left: 27vh;
+    display: none;
+    top: -62vh;
+}
+
+.MotelHeadex {
+    color: #fff;
+    padding-top: 2.5vh;
+    padding-left: 1vh;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 2vh;
+    top: -3vh;
+    left: 1vh;
+    font-weight: 600;
+}
+
+.MyOdaSelect {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 24vh;
+    opacity: 1.0;
+    border-radius: .5vh;
+    margin-top: -3.5vh;
+    height: 19vh;
+}
+
+.minitext {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3vh;
+    color: #fff;
+    position: relative;
+    left: 8vh;
+    top: -3vh;
+}
+
+.MotelHeadexX {
+    color: #fff;
+    padding-top: 2.5vh;
+    padding-left: 1vh;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 2vh;
+    top: -7vh;
+    left: 70vh;
+    font-weight: 600;
+}
+
+.CloseButton {
+    background-color: transparent;
+    width: 3vh;
+    border: 1px;
+    height: 3vh;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2vh;
+    position: relative;
+    left: 88vh;
+    cursor: pointer;
+}
+
+.CloseButton2 {
+    background-color: transparent;
+    width: 3vh;
+    border: 1px;
+    height: 3vh;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2vh;
+    position: relative;
+    left: 94vh;
+    cursor: pointer;
+    top: -5vh;
+}
+
+.CloseButton3 {
+    background-color: transparent;
+    width: 3vh;
+    border: 1px;
+    height: 3vh;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2vh;
+    position: relative;
+    left: 1vh;
+    top: 55.5vh;
+    cursor: pointer;
+}
+
+.MotelOdalar {
+    background-color: #22252e;
+    width: 100vh;
+    height: 54vh;
+    border-radius: 0.4vh;
+    position: relative;
+    margin: auto;
+    margin-top: 11vh;
+    display: none;
+}
+
+.MotelOdaSidebar {
+    background-color: tranparent;
+    width: 89vh;
+    height: 7vh;
+    position: relative;
+    left: 2vh;
+    top: -54vh;
+    border-radius: .5vh;
+}
+
+.SidebarHeader {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2.5vh;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    left: 2vh;
+    top: 2vh;
+}
+
+.Odalar {
+    background-color: transparent;
+    width: 96vh;
+    height: 45vh;
+    position: relative;
+    left: 2vh;
+    overflow: auto;
+    top: -55vh;
+    border-radius: .5vh;
+}
+
+.OdalarimTitle {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    left: 3vh;
+    top: -50vh;
+    font-size: 3vh;
+}
+
+.Odalar2 {
+    background-color: transparent;
+    width: 90vh;
+    height: 42vh;
+    position: relative;
+    left: 1.5vh;
+    overflow: auto;
+    top: -52vh;
+    border-radius: .5vh;
+}
+
+.RoomTitle {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    left: 5vh;
+    font-size: 3vh;
+}
+
+
+.RoomTitle2 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: relative;
+    left: 3vh;
+    font-size: 1.7vh;
+}
+
+.RoomTitle23 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    left: 4vh;
+    font-size: 3vh;
+}
+
+.KiralaButton {
+    background-color: #008f30;
+    width: 30vh;
+    height: 3.5vh;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    border: 1px;
+    position: relative;
+    cursor: pointer;
+    border-radius: .3vh;
+    left: 2vh;
+    top: -0.5vh;
+    font-size: 1.7vh;
+}
+
+.MyMotelRooms {
+    background-color: transparent;
+    width: 24vh;
+    height: 48vh;
+    position: absolute;
+    border-radius: .5vh;
+    float: left;
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    display: inline-block;
+    padding: 1vh;
+    right: 1vh;
+    bottom: 1vh;
+}
+
+.MotelSelectClose {
+    background-color: transparent;
+    width: 3vh;
+    height: 3vh;
+    font-size: 2.3vh;
+    position: relative;
+    cursor: pointer;
+    left: 33vh;
+    font-family: 'DM Sans', sans-serif;
+    border: 1px;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 3px;;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #07090c; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1c2430;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.Oda {
+    background-color: #212124;
+    width: 19vh;
+    height: 18vh;
+    position: relative;
+    float: left;
+    left: 2vh;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    top: 2vh;
+    border-radius: .5vh;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #0a0f12;
+    margin: 15% auto;
+    border-radius: 1vh;
+    padding: 5px;
+    height: 25vh;
+    width: 44vh;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
