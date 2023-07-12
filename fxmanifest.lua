@@ -31,12 +31,4 @@ files {
     "ui/img/*.png"
 }
 
-escrow_ignore {
-	'config.lua',
-    'lang.lua',
-    'client.lua',
-    'server.lua',
-    'func.lua'
-}
-
 lua54 'yes'
